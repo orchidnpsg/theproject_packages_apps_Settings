@@ -21,6 +21,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_USE_AAPT2 := true
 
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
+LOCAL_SRC_FILES += $(call all-java-files-under, ../FusionReactor/src)
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx-constraintlayout_constraintlayout \
@@ -54,7 +55,13 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     org.lineageos.platform.internal \
     vendor.lineage.fastcharge-V1.0-java
 
+LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
+    packages/apps/FusionReactor/res
+
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+
+LOCAL_AAPT_FLAGS := --auto-add-overlay \
+    --extra-packages com.fusion.reactor
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
