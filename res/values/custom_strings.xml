@@ -106,6 +106,7 @@ Notifications may be delayed for these apps."</string>
     <string name="battery_light_title">Turn on the light when charging</string>
 
     <!-- ROM version -->
+    <string name="build_date">Build date</string>
     <string name="rom_version">FusionOS version</string>
     <string name="rom_version_default">Unknown</string>
 
