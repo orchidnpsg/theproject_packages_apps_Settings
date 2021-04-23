@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2016 The CyanogenMod Project
+     Copyright (C) 2017-2019 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="advanced_reboot_title">Avanceret genstart</string>
+    <string name="app_ops_permissions_allowed">Tilladt</string>
+    <string name="app_ops_permissions_ignored">Ignoreret</string>
+    <string name="app_ops_permissions_always_ask">Spørg altid</string>
+    <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (brugt <xliff:g id="count">%2$s</xliff:g>)</string>
+    <string name="app_ops_allowed_count">Tilladt <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Afslået <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Tilladt <xliff:g id="count">%1$s</xliff:g>, afslået <xliff:g id="count">%2$s</xliff:g></string>
+    <string name="app_ops_no_blockable_permissions">Ingen tilladelser tilgængelige til at blokere</string>
+    <string name="app_ops_show_user_apps">Vise bruger-apps</string>
+    <string name="app_ops_show_system_apps">Vise indbyggede apps</string>
+    <string name="app_ops_reset_counters">Nulstille tillad/afslå-tællere</string>
+    <string name="app_ops_reset_confirm_title">Bekræfte tæller-nulstilling</string>
+    <string name="app_ops_reset_confirm_mesg">Er du sikker på at du vil nulstille tællere?</string>
+    <string name="memory_startup_apps_title">Apps startet under opstart</string>
+    <string name="app_ops_categories_location">Lokalitet</string>
+    <string name="app_ops_categories_personal">Personlig</string>
+    <string name="app_ops_categories_messaging">Meddelelser</string>
+    <string name="app_ops_categories_media">Medie</string>
+    <string name="app_ops_categories_device">Enhed</string>
+    <string name="app_ops_categories_run_in_background">Køre i baggrunden</string>
+    <string name="app_ops_categories_bootup">Opstart</string>
+    <string name="app_ops_categories_su">Rod-adgang</string>
+    <string name="app_ops_categories_other">Andet</string>
+    <string name="app_ops_summaries_accept_handover">overdragelse af et opkald fra en anden app</string>
+    <string name="app_ops_summaries_access_notifications">tilgå notifikationer</string>
+    <string name="app_ops_summaries_activate_vpn">aktivere VPN</string>
+    <string name="app_ops_summaries_add_voicemail">tilføje telefonsvarer-meddelelse</string>
+    <string name="app_ops_summaries_assist_screenshot">assistere skærmbillede</string>
+    <string name="app_ops_summaries_assist_structure">assistere struktur</string>
+    <string name="app_ops_summaries_coarse_location">grov lokalitet</string>
+    <string name="app_ops_summaries_delete_call_log">slette din opkaldshistorik</string>
+    <string name="app_ops_summaries_draw_on_top">tegne øverst</string>
+    <string name="app_ops_summaries_fine_location">fin lokalitet</string>
+    <string name="app_ops_summaries_get_accounts">få konti</string>
+    <string name="app_ops_summaries_get_usage_stats">få app-brugsstatistikker</string>
+    <string name="app_ops_summaries_gps">GPS</string>
+    <string name="app_ops_summaries_make_phone_call">foretage et telefon-opkald</string>
+    <string name="app_ops_summaries_manage_ipsec_tunnels">håndtér ipsec-tunneller</string>
+    <string name="app_ops_summaries_mock_location">fuppe lokalitet</string>
+    <string name="app_ops_summaries_modify_calendar">modificere kalender</string>
+    <string name="app_ops_summaries_modify_call_log">modificere opkaldshistorik</string>
+    <string name="app_ops_summaries_modify_clipboard">modificere udklipsholder</string>
+    <string name="app_ops_summaries_modify_contacts">modificere kontaktpersoner</string>
+    <string name="app_ops_summaries_modify_settings">modificere indstillinger</string>
+    <string name="app_ops_summaries_monitor_high_power_location">overvåge høj-energi lokalitet</string>
+    <string name="app_ops_summaries_monitor_location">overvåge lokalitet</string>
+    <string name="app_ops_summaries_mute_unmute_microphone">sætte mikrofon på lyd/lydløs</string>
+    <string name="app_ops_summaries_phone_calls">besvare telefonopkald</string>
+    <string name="app_ops_summaries_play_audio">afspille lyd</string>
+    <string name="app_ops_summaries_project_media">projektere medie</string>
+    <string name="app_ops_summaries_read_calendar">læse kalender</string>
+    <string name="app_ops_summaries_read_call_log">læse opkaldshistorik</string>
+    <string name="app_ops_summaries_read_cell_broadcasts">læse mobilnetværks-udsendelser</string>
+    <string name="app_ops_summaries_read_clipboard">læse udklipsholder</string>
+    <string name="app_ops_summaries_read_contacts">læse kontaktpersoner</string>
+    <string name="app_ops_summaries_read_external_storage">læse ekstern lagerplads</string>
+    <string name="app_ops_summaries_read_phone_state">læse telefonstatus</string>
+    <string name="app_ops_summaries_read_sms">læse SMS</string>
+    <string name="app_ops_summaries_receive_sms">modtage SMS</string>
+    <string name="app_ops_summaries_record_audio">optage lyd</string>
+    <string name="app_ops_summaries_run_in_background">køre i baggrunden</string>
+    <string name="app_ops_summaries_send_sms">sende SMS</string>
+    <string name="app_ops_summaries_toast_window">vise posteringer</string>
+    <string name="app_ops_summaries_toggle_mobile_data">slå mobildata til/fra</string>
+    <string name="app_ops_summaries_toggle_nfc">slå NFC til/fra</string>
+    <string name="app_ops_summaries_toggle_wifi">slå Wi-Fi til/fra</string>
+    <string name="app_ops_summaries_use_body_sensors">bruge krops-sensorer</string>
+    <string name="app_ops_summaries_use_fingerprint">bruge fingeraftryk</string>
+    <string name="app_ops_summaries_use_voice_volume">kontrollere lydstyrken for lydopkald</string>
+    <string name="app_ops_summaries_write_external_storage">skrive til ekstern lagerplads</string>
+    <string name="app_ops_summaries_write_sms">skrive SMS</string>
+    <string name="app_ops_labels_accept_handover">Overdragelse af et opkald fra en anden app</string>
+    <string name="app_ops_labels_access_notifications">Tilgå notifikationer</string>
+    <string name="app_ops_labels_activate_vpn">Aktivere VPN</string>
+    <string name="app_ops_labels_add_voicemail">Tilføje telefonsvarer-meddelelse</string>
+    <string name="app_ops_labels_assist_screenshot">Assistere skærmbillede</string>
+    <string name="app_ops_labels_assist_structure">Assistere struktur</string>
+    <string name="app_ops_labels_coarse_location">Grov lokalitet</string>
+    <string name="app_ops_labels_delete_call_log">Slette din opkaldshistorik</string>
+    <string name="app_ops_labels_draw_on_top">Tegne øverst</string>
+    <string name="app_ops_labels_fine_location">Fin lokalitet</string>
+    <string name="app_ops_labels_get_accounts">Få konti</string>
+    <string name="app_ops_labels_get_usage_stats">Få brugsstatistikker</string>
+    <string name="app_ops_labels_gps">GPS</string>
+    <string name="app_ops_labels_make_phone_call">Foretage et telefon-opkald</string>
+    <string name="app_ops_labels_manage_ipsec_tunnels">Håndtér ipsec-tunneller</string>
+    <string name="app_ops_labels_mock_location">Fuppe lokalitet</string>
+    <string name="app_ops_labels_modify_calendar">Modificere kalender</string>
+    <string name="app_ops_labels_modify_call_log">Modificere opkaldshistorik</string>
+    <string name="app_ops_labels_modify_clipboard">Modificere udklipsholder</string>
+    <string name="app_ops_labels_modify_contacts">Modificere kontaktpersoner</string>
+    <string name="app_ops_labels_modify_settings">Modificere indstillinger</string>
+    <string name="app_ops_labels_monitor_high_power_location">Overvåg høj-energi lokalitet</string>
+    <string name="app_ops_labels_monitor_location">Overvåg lokalitet</string>
+    <string name="app_ops_labels_mute_unmute_microphone">Sætte mikrofon på lyd/lydløs</string>
+    <string name="app_ops_labels_phone_calls">Besvare telefonopkald</string>
+    <string name="app_ops_labels_play_audio">Afspille lyd</string>
+    <string name="app_ops_labels_project_media">Projektere medie</string>
+    <string name="app_ops_labels_read_calendar">Læse kalender</string>
+    <string name="app_ops_labels_read_call_log">Læse opkaldshistorik</string>
+    <string name="app_ops_labels_read_cell_broadcasts">Læse mobilnetværks-udsendelser</string>
+    <string name="app_ops_labels_read_clipboard">Læse udklipsholder</string>
+    <string name="app_ops_labels_read_contacts">Læse kontaktpersoner</string>
+    <string name="app_ops_labels_read_external_storage">Læse ekstern lagerplads</string>
+    <string name="app_ops_labels_read_phone_state">Læse telefonstatus</string>
+    <string name="app_ops_labels_read_sms">Læse SMS</string>
+    <string name="app_ops_labels_receive_sms">Modtage SMS</string>
+    <string name="app_ops_labels_record_audio">Optage lyd</string>
+    <string name="app_ops_labels_run_in_background">Køre i baggrunden</string>
+    <string name="app_ops_labels_send_sms">Sende SMS</string>
+    <string name="app_ops_labels_toast_window">Vise posteringer</string>
+    <string name="app_ops_labels_toggle_mobile_data">Slå mobildata til/fra</string>
+    <string name="app_ops_labels_toggle_nfc">Slå NFC til/fra</string>
+    <string name="app_ops_labels_toggle_wifi">Slå Wi-Fi til/fra</string>
+    <string name="app_ops_labels_use_body_sensors">Bruge krops-sensorer</string>
+    <string name="app_ops_labels_use_fingerprint">Bruge fingeraftryk</string>
+    <string name="app_ops_labels_use_voice_volume">Kontrollere lydstyrken for lydopkald</string>
+    <string name="app_ops_labels_write_external_storage">Skrive til ekstern lagerplads</string>
+    <string name="app_ops_labels_write_sms">Skrive SMS</string>
+    <string name="lock_settings_picker_pattern_size_message">Vælg en mønsterstørrelse</string>
+    <string name="lockpattern_settings_enable_error_path_title">Vis mønster-fejl</string>
+    <string name="lockpattern_settings_enable_dots_title">Vis mønster-prikker</string>
+    <string name="lockscreen_vibrate_enabled_title">Vibrér</string>
+    <string name="lockscreen_vibrate_enabled_head">Vibrér ved oplåsning</string>
+    <string name="adb_enable">Android-fejlretning</string>
+    <string name="adb_enable_summary">Aktivér ADB-grænsefladen</string>
+    <string name="adb_notify">Fejlretningsnotifikation</string>
+    <string name="adb_notify_summary">Vis en notifikation, når USB-, eller netværksfejlretning er aktiveret</string>
+    <string name="adb_over_network">ADB over netværk</string>
+    <string name="adb_over_network_summary">Aktivér TCP/IP-fejlfinding over netværksgrænseflader (Wi\u2011Fi, USB-netværk). Denne indstilling nulstilles ved genstart</string>
+    <string name="adb_over_network_warning">ADVARSEL: Når ADB over netværk er aktiveret, er din telefon åben for indtrængen på alle forbundne netværk!\n\nBenyt kun denne funktion, når du er forbundet på betroede netværk.\n\nVil du virkelig aktivere denne funktion?</string>
+    <plurals name="show_dev_countdown_cm">
+        <item quantity="one">Du er nu <xliff:g id="step_count">%1$d</xliff:g> skridt fra at aktivere udvikler-indstillinger.</item>
+        <item quantity="other">Du er nu <xliff:g id="step_count">%1$d</xliff:g> skridt fra at aktivere udvikler-indstillinger.</item>
+    </plurals>
+    <string name="show_dev_on_cm">Du har aktiveret udvikler-indstillinger!</string>
+    <string name="show_dev_already_cm">Intet behov, da du allerede har aktiveret udvikler-indstillinger.</string>
+    <string name="lineagelicense_title">LineageOS-juridisk</string>
+    <string name="status_bar_double_tap_to_sleep_title">Tryk for at slumre</string>
+    <string name="status_bar_double_tap_to_sleep_summary">Dobbelt-tryk på statusbjælken eller låseskærmen, for at slukke for skærmen</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Lokalisér fingeraftrykssensoren på <xliff:g id="sensor_location">%1$s</xliff:g> af din telefon.</string>
+    <string name="security_settings_fingerprint_sensor_location_back">bagsiden</string>
+    <string name="security_settings_fingerprint_sensor_location_front">forsiden</string>
+    <string name="security_settings_fingerprint_sensor_location_left">venstre side</string>
+    <string name="security_settings_fingerprint_sensor_location_right">højre side</string>
+    <string name="device_hostname">Enheds værtsnavn</string>
+    <string name="increasing_ring_volume_option_title">Stigende ringe-lydstyrke</string>
+    <string name="increasing_ring_min_volume_title">Start-lydstyrke</string>
+    <string name="increasing_ring_ramp_up_time_title">Opvarmningstid</string>
+    <string name="kill_app_longpress_back">Luk app tilbage-knap</string>
+    <string name="kill_app_longpress_back_summary">Luk app\'en i forgrunden ved langt tryk på tilbage-knappen</string>
+    <string name="development_tools_title">Udviklerværktøjer</string>
+    <string name="lockscreen_media_art_title">Vis medie-albumbilleder</string>
+    <string name="lockscreen_visualizer_title">Vis musik-visualisering</string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> er <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_disabled">deaktiveret</string>
+    <string name="sim_missing">manglende, eller defekt</string>
+    <string name="sim_enabler_need_disable_sim">SIM-kort vil blive deaktiveret. Ønsker du at fortsætte?</string>
+    <string name="sim_enabler_airplane_on">Ude af stand til at udføre opgaven, imens flytilstand er slået til.</string>
+    <string name="sim_enabler_in_call">Ude af stand til at udføre opgaven, midt i et opkald.</string>
+    <string name="sim_enabler_both_inactive">Kan ikke deaktivere alle SIM-kort</string>
+    <string name="sim_enabler_enabling">Aktiverer\u2026</string>
+    <string name="sim_enabler_disabling">Deaktiverer\u2026</string>
+    <string name="sub_activate_success">SIM aktiveret.</string>
+    <string name="sub_activate_failed">Aktivering fejlede.</string>
+    <string name="sub_deactivate_success">SIM deaktiveret.</string>
+    <string name="sub_deactivate_failed">Deaktivering fejlede.</string>
+    <string name="unlock_scramble_pin_layout_title">Omvælt opsætning</string>
+    <string name="unlock_scramble_pin_layout_summary">Omvælt PIN-opsætning, ved oplåsning af enhed</string>
+    <string name="proximity_wake_title">Forhindr utilsigtet vækning</string>
+    <string name="root_access">Rod-adgang</string>
+    <string name="root_access_warning_title">Tillad rod-adgang?</string>
+    <string name="root_access_warning_message">Tilladelse af at apps anmoder om rod-adgang er meget farligt, og kunne kompromittere dit systems sikkerhed!</string>
+    <string name="root_access_none">Deaktiveret</string>
+    <string name="root_access_apps">Kun apps</string>
+    <string name="root_access_adb">Kun ADB</string>
+    <string name="root_access_all">Apps og ADB</string>
+    <string name="root_appops_title">Håndtér rod-adgange</string>
+    <string name="root_appops_summary">Vis og kontrollér rod-reglerne</string>
+    <string name="touchscreen_gesture_settings_title">Bevægelser på berøringsfølsom skærm</string>
+    <string name="touchscreen_gesture_settings_summary">Udfør forskellige bevægelser på berøringsfølsom skærm, for hurtig-handlinger</string>
+    <string name="wake_when_plugged_or_unplugged_title">Vågn ved tilslutning</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Tænd for skærmen, ved tilslutning til, eller afbrydelse fra en strømkilde</string>
+    <string name="high_touch_sensitivity_title">Høj berøringsfølsomhed</string>
+    <string name="high_touch_sensitivity_summary">Forøg berøringsfølsom skærms følsomhed, så den kan bruges med handsker på</string>
+    <string name="touchscreen_hovering_title">Berøringsfølsom skærm-svævning</string>
+    <string name="touchscreen_hovering_summary">Tillader dig at holde fingeren over skærmen, som en mus i netlæsere, på fjernskriveborde, osv.</string>
+    <string name="app_notification_sound_timeout_title">Minimumstid imellem notifikationslyde</string>
+    <string name="app_notification_sound_timeout_summary_template">Tillad ikke lyde, eller vibration, mere end én gang hver <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Ingen restriktion</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekunder</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekunder</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minut</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutter</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutter</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutter</string>
+</resources>
